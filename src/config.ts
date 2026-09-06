@@ -14,7 +14,7 @@ export const siteConfig = {
   skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Node.js", "PostgreSQL"],
   projects: [
     {
-      name: "Digital Wallet - Fintech App",
+      name: "Cashwise - Fintech App",
       description:
         "A full-stack financial web application focused on seamless money transfers and asset management, built with a modern react-based frontend and REST API integration",
       link: "https://pf-corewise-frontend.vercel.app/",
