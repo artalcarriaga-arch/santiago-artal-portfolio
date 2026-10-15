@@ -10,7 +10,7 @@ export const siteConfig = {
     github: "https://github.com/artalcarriaga-arch",
   },
   aboutMe:
-    "I'm a Frontend Developer focused on building modern, scalable, and interactive web experiences with React, TypeScript, Next.js, and Tailwind CSS.\n\nI combine solid frontend development with an AI- Driven approach, using LLMs, prompt engineering, MCP, and AI-powered developer tools to improve workflows, reduce technical debt, and deliver better software faster.\n\nI also have hands - on experience building SPAs, integrating REST APIs, and working with Node.js, PostgreSQL, and Firebase.My background in teaching and team coordination has strengthened my communication, problem - solving, and ability to work effectively in agile environments.",
+    "I'm a Frontend Developer focused on building modern, interactive, and scalable web experiences with React, TypeScript, Next.js, and Tailwind CSS.\n\nI'm currently working as a Frontend Developer Intern at Fundación Vive Tu Mente, contributing to responsive design, accessibility improvements, reusable UI components, and the development of payment and donation features.\n\nAlongside my internship, I build personal projects to explore new technologies and strengthen my skills in frontend development, API integration, and backend services. I also use AI-driven workflows, LLMs, prompt engineering, and AI-powered developer tools to improve my development process.\n\nMy background in teaching and operations has strengthened my communication, problem-solving, organization, and teamwork skills, helping me collaborate effectively in agile environments.",
   skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Node.js", "PostgreSQL"],
   projects: [
     {
@@ -34,16 +34,25 @@ export const siteConfig = {
       link: "https://proyecto-m5-santiago-artal.vercel.app/",
       skills: ["React", "JavaScript", "Firebase", "Firestore"],
     },
+    {
+      name: "Hotelia - Hotel Booking Platform (WIP)",
+      description:
+        "A hotel booking platform currently in development, featuring room search filters, responsive design, and reusable UI components. Built with React, TypeScript, and Next.js, with Firebase initialized for backend integration",
+      link: "https://github.com/artalcarriaga-arch/Hotelia",
+      skills: ["React", "TypeScript", "Next.js", "Firebase", "Responsive Design"],
+    },
   ],
   experience: [
     {
-      company: "Academic Projects",
-      title: "Collaborative Development & Agile Workflows",
-      dateRange: "Jan 2026 - Jul 2026",
+      company: "Fundación Vive Tu Mente",
+      title: "Frontend Developer Intern",
+      dateRange: "October 2026 - Present · Internship",
       bullets: [
-        "Coordinated task distribution based on tema members' strengths, reducing sprint delivery times by 20%",
-        "Facilitated daily stand-ups and team communication to identify and resolver development bottlenecks",
-        "Worked with Scrum methodologies to track milestones and ensure 100% of project deliverables were completed on time",
+        "Improved responsive design and accessibility across the platform",
+        "Developed reusable UI components, including headers, footers, and help widgets, to improve maintainability",
+        "Implemented a dynamic visit counter",
+        "Contributing to payment and donation features, including online payments and PAC/PAT payment methods",
+        "Collaborating with the technical lead and backend developers to deliver frontend improvements",
       ],
     },
     {
